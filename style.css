@@ -1,0 +1,202 @@
+/* main-cointainer */
+
+.banner-title {
+    font-size: 50px;
+}
+
+.banner-buttom {
+    margin-bottom: 140px;
+}
+
+.buttom {
+    margin-bottom: 100px;
+}
+
+/* main? */
+
+/* slider */
+.img-hight {
+    height: 350px;
+}
+
+.rounded-img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* The Legal Practice Area */
+
+.Practice-Area {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.area-pading {
+    background-color: rgb(228, 223, 221);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 5px;
+}
+
+
+.area-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.text-center {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.titles {
+    margin: 80px;
+    text-align: center;
+}
+
+.arrow {
+    color: rgb(227, 177, 101);
+}
+
+.text-color {
+    color: white;
+
+}
+
+.title-dis {
+    font-size: 14px;
+}
+
+/* quastion */
+.quastion {
+    margin: 80px;
+    text-align: center;
+}
+
+.img-qus {
+    height: 350px;
+}
+
+/* footer? */
+
+.footer-color {
+    margin-top: 80px;
+    padding: 40px 150px;
+    background: #000;
+}
+
+.grid {
+    color: white;
+    display: grid;
+    margin: 25px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-img {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.tlegram {
+    width: 40px;
+    height: 80px;
+}
+
+.font-size {
+    color: rgb(121, 117, 117);
+    font-size: 12px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.text-aria {
+    padding: 10px;
+}
+
+.telegram,
+.b-color {
+    color: white;
+}
+
+/* media */
+
+@media only screen and (max-width:688px) {
+
+    .grid,
+    .Practice-Area {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+
+    .banner-buttom {
+        margin-bottom: 1px;
+    }
+
+    .banner-size {
+        height: auto;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+
+    .main-cointainer {
+        padding: 2px 50px;
+    }
+
+    /* banner? */
+    .gap {
+        padding: 0px 10px;
+    }
+
+    .input-aria {
+        width: 50%;
+        font-size: 5px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .banner-text {
+        font-size: 9px;
+    }
+
+    /* The Legal Practice Area */
+    .area-pading {
+        padding: 5px;
+    }
+
+    .titles {
+        margin-top: 20px;
+        margin: 0px;
+    }
+
+    /* footer */
+    .footer-color {
+        padding: 50px 10px;
+    }
+
+    .carousel-caption {
+        font-size: 5px;
+        display: block;
+    }
+
+    .margin-butom {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .carousel-inner {
+        margin-top: 15px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0px;
+    }
+}
